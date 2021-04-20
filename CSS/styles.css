@@ -1,0 +1,182 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+/* ------------- */
+/* Mobile Firts */
+/* ------------*/
+
+/* Main Header */
+.main-header  {
+  display: flex;
+  justify-content: space-between;
+  height: 12vh;
+  background-color: #00FF6D;
+}
+
+.logo {
+  background-color: #27AE60;
+  width: 60px;
+  height:60px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+/* ----Main  --- */
+
+.main  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .aside  {
+  display: none;
+}
+
+.main .art  {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center;
+  width: 280px;
+  height: 200px;
+  border-radius: 10px;
+  margin: 25px;
+}
+
+.main .art h4 {
+  width: 90px;
+  height: 13px;
+  background-color: white;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.main .art p  {
+  width: 190px;
+  height: 7px;
+  background-color: white;
+  margin-top: 6px;
+  border-radius: 4px;
+}
+
+.main .art > div  {
+  display: flex;
+}
+
+.main .art .img-art {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  margin: 13px 8px;
+  background-color: white;
+}
+
+.section-art article:nth-child(1) 
+{
+  background-color:#F2C94C;
+}
+
+.section-art article:nth-child(2) 
+{
+  background-color:#F2994A;
+}
+
+.section-art article:nth-child(3) 
+{
+  background-color:#EB5757;
+}
+
+.section-art article:nth-child(4) 
+{
+  background-color:#BB6BD9;
+}
+
+/* Footer */
+.main-footer  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #35EB82;
+  height: 550px;
+}
+
+.main-footer .img-foo {
+  background-color: #219653;
+  width: 110px;
+  height:110px;
+  border-radius: 60px;
+  margin-top: -60px;
+  margin: 20px;
+}
+
+.main-footer .trio-img-foo  {
+  display: flex;
+  margin: 10px;
+}
+
+.main-footer .img-div-foo {
+  background-color: #219653;
+  width: 30px;
+  height:30px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.main-footer .a-foo {
+  order: 3;
+  background-color: #219653;
+  height: 20px;
+  width: 250px;
+  border-radius: 5px;
+  margin-top: 150px;
+  margin-bottom: -130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header-nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header-a {
+  width: 40px;
+  height: 10px;
+  background-color:#27AE60 ;
+  margin: 5px;
+}
+
+.avatar {
+  background-color:#27AE60;
+  width: 20px;
+  height:20px;
+  border-radius: 10px;
+
+} */
